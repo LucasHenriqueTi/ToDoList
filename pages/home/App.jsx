@@ -1,6 +1,6 @@
 import './App.css'
 import Lixeira from '../../src/assets/lixo.svg';
-import { usuarios } from '../../server/dados.js'
+import { usuarios } from '../../services/dados.js'
 
 
 function Formulario() {
