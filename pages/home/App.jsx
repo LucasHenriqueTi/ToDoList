@@ -19,9 +19,9 @@ function Formulario() {
 
 function Listausuarios() {
   return (
-    <>
+    <div>
       {usuarios.map(user =>
-        <div className='user'>
+        <div key={user.id} className='user'>
           <div>
             <p>Nome:<span>{user.name} </span> </p>
             <p>Idade:<span>{user.idade}</span> </p>
@@ -31,7 +31,7 @@ function Listausuarios() {
             <img src={Lixeira} alt="lixeira" />
           </button>
         </div>)}
-    </>
+    </div>
   );
 }
 
