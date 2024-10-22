@@ -15,20 +15,20 @@ export const usuarios = [{
 {
     id:3,
     name:'miguel',
-    idade: 223,
+    idade: 2223,
     email: 'lucaaaas@email.com'
 },
 
 {
     id:4,
     name:'migaaaauel',
-    idade: 223,
+    idade: 2263,
     email: 'luc2aaaas@email.com'
 },
 
 {
     id:5,
     name:'mi1111guel',
-    idade: 223,
+    idade: 22113,
     email: 'lucaaaas@email.com'
 }];
