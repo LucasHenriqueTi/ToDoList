@@ -27,8 +27,11 @@ function Listausuarios() {
             <p>Idade:<span>{user.idade}</span> </p>
             <p>Email:<span>{user.email}</span> </p>
           </div>
-          <button className='lixeira'>
+          <button className='lixeira' id='lixeira'>
             <img src={Lixeira} alt="lixeira" />
+          </button>
+          <button className='editar' id='editar'>
+            <img src={Lixeira} alt="editar" />
           </button>
         </div>)}
     </div>

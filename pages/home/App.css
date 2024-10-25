@@ -66,6 +66,9 @@ form {
         border: none;
         cursor: pointer;
     }
+    & #editar {
+        background-color: #fff;
+    }
     
     & button:hover {
         opacity: 0.5;
